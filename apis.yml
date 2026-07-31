@@ -1,7 +1,25 @@
 aid: neversitup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neversitup.png
 name: Neversitup
-description: Neversitup is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Neversitup is a Bangkok, Thailand based software development and IT outsourcing
+  company delivering end-to-end digital software along with web, mobile, and backend
+  engineering and dedicated developer placement for clients. It also builds and operates
+  its own consumer fintech products, including the Piggipo and Piggipo Go credit-card
+  management apps and the Fast Loan lending platform, on a stack spanning Python, Node.js,
+  React, Kotlin, and Swift running on AWS and Firebase. As of this enrichment pass Neversitup
+  publishes no public developer API, API documentation, or SDKs; it operates as a services
+  and product company rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/neversitup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Software Development
+- IT Outsourcing
+- Fintech
+- Mobile Apps
+- Digital Transformation
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neversitup-domain-security.yml
 - type: Website
   url: https://neversitup.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
